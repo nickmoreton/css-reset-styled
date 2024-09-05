@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: var(--verticle-space) 0;
+}
+
+table thead {
+    background-color: #f2f2f2;
+}
+
+table tbody {
+    background-color: #fff;
+}
+
+table tfoot {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: var(--verticle-space);
+    border: 1px solid #e0e0e0;
+}

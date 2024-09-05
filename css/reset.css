@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  line-height: var(--font-line-height);
+}
+
+/* Text based */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: var(--verticle-space) 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+ul,
+ol {
+  margin: 1rem 0;
+  list-style: none;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid #9a9a9a;
+  font-style: italic;
+}
+
+pre {
+  margin: 1rem 0;
+  white-space: inherit;
+}
+
+figure {
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+figure figcaption {
+  /* margin-bottom: 1rem; */
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+a {
+  color: blue;
+}
+
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+audio {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+svg {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+details {
+  display: block;
+  margin: 1rem 0;
+}
+
+address {
+  font-style: normal;
+  display: block;
+  margin: 1rem 0;
+}
+
+time,
+mark,
+ins,
+del,
+small {
+  display: block;
+  margin: 1rem 0;
+}

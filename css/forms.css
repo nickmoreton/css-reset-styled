@@ -1,0 +1,57 @@
+input {
+  display: block;
+  margin-bottom: var(--verticle-space);
+}
+
+input:focus {
+    outline: none;
+    background-color: var(--focus-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="search"] {
+    padding: var(--verticle-space);
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    width: 100%;
+    font-size: var(--font-size);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline;
+    width: auto;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    padding: var(--verticle-space) var(--verticle-space);
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    font-size: var(--font-size);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: #e4eeef;
+    transition: all 0.3s;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
