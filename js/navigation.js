@@ -21,6 +21,7 @@ customElements.define('custom-navigation', class Navigation extends HTMLElement 
                       <li><a href="components-media.html">Media</a></li>
                       <li><a href="components-table.html">Tables</a></li>
                       <li><a href="components-form.html">Forms</a></li>
+                      <li><a href="colors.html">Colors</a></li>
                   </ul>
               </nav>
                   `;
