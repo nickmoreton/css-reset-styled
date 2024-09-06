@@ -1,6 +1,6 @@
 input {
   display: block;
-  margin-bottom: var(--verticle-space);
+  margin-bottom: var(--vertical-space);
 }
 
 input:focus {
@@ -17,7 +17,7 @@ input[type="number"],
 input[type="date"],
 input[type="time"],
 input[type="search"] {
-    padding: var(--verticle-space);
+    padding: var(--vertical-space);
     border: 1px solid #ccc;
     border-radius: 0.25rem;
     width: 100%;
@@ -34,7 +34,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 button {
-    padding: var(--verticle-space) var(--verticle-space);
+    padding: var(--vertical-space) var(--vertical-space);
     border: 1px solid #ccc;
     border-radius: 0.25rem;
     background-color: #f2f2f2;
@@ -54,4 +54,17 @@ button:hover {
 label {
   display: block;
   margin-bottom: 0.5rem;
+}
+
+label > span {
+    /* evens out vertical space if input wrapped with label
+    requires a span around label text */
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="date"],
+input[type="time"] {
+    /* evens out final height of inputs */
+    padding: calc(var(--vertical-space) - 2px);
 }

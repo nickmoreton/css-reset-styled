@@ -2,7 +2,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    margin: var(--verticle-space) 0;
+    margin: var(--vertical-space) 0;
 }
 
 table thead {
@@ -18,6 +18,6 @@ table tfoot {
 }
 
 th, td {
-    padding: var(--verticle-space);
+    padding: var(--vertical-space);
     border: 1px solid #e0e0e0;
 }

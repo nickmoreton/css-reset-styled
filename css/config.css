@@ -12,8 +12,8 @@
     --breakpoint-xl: 1200px;
     --breakpoint-xxl: 1400px;
 
-    --base-verticle-space: 1rem;
-    --verticle-space: calc(var(--base-verticle-space) + .6vw);
+    --base-vertical-space: 1rem;
+    --vertical-space: calc(var(--base-vertical-space) + .6vw);
 
     --focus-color: #f2f2f2;
 }
